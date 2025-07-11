@@ -1,0 +1,23 @@
+{
+  "personal": [
+    { "question": "ما اسمك الكامل؟", "type": "text" },
+    { "question": "كم عمرك؟", "type": "number" },
+    { "question": "ما هو ID حسابك في سوني؟", "type": "text" },
+    { "question": "من أين عرفت السيرفر؟", "type": "text" },
+    { "question": "هل تتعهد بعدم التخريب أو الخيانة؟", "type": "text" }
+  ],
+  "rules": [
+    { "question": "لا يحق للاعب قتل EMS أو سرقتهم.", "answer": true },
+    { "question": "يسمح لك بقتل أي شخص داخل مدينة بلا سبب.", "answer": false },
+    { "question": "لا يجوز لك سرقة الشرطة في محطة الشرطة.", "answer": true },
+    { "question": "الخروج من اللعبة أثناء موقف رول بلاي مسموح.", "answer": false },
+    { "question": "ممنوع استفزاز الشرطة بدون سبب.", "answer": true },
+    { "question": "يحق لك قيادة طائرات بدون رخصة.", "answer": false },
+    { "question": "الكلام العنصري ممنوع تماماً.", "answer": true },
+    { "question": "مسموح تقتل شخص لأنه قال لك لا.", "answer": false },
+    { "question": "المجازر الجماعية بدون سبب تعتبر RDM.", "answer": true },
+    { "question": "يمكنك ضرب اللاعبين داخل محطة الشرطة.", "answer": false },
+    { "question": "التخريب المتعمد يؤدي إلى باند.", "answer": true },
+    { "question": "عند الاعتقال يحق لك الخروج من السيرفر فورًا.", "answer": false }
+  ]
+}
